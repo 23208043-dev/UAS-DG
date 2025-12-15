@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id">
+<head>
+<title>HIGEM — About</title>
+<meta name="description" content="Tentang HIGEM.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="HIGEM - Beranda">
+        <img src="assets/img/logo-higem.png" alt="Logo HIGEM">
+        <div>
+          <b>HIGEM</b>
+          <small>@higemcoffee</small>
+        </div>
+      </a>
+
+      <nav class="navlinks" data-navlinks aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+
+      <button class="burger" data-burger aria-label="Buka menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="h1">About HIGEM</h1>
+      <div class="grid two">
+        <div class="card pad">
+          <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l1.8 5.8L20 10l-6.2 2.2L12 18l-1.8-5.8L4 10l6.2-2.2L12 2z"/></svg> Brand story</span>
+          <h2 class="h2" style="margin-top:12px">Hidden Gem Coffee di FT Universitas Negeri Manado</h2>
+          <p class="p">
+            HIGEM lahir dari sudut Fakultas Teknik UNIMA - tempat sederhana yang mungkin tak langsung terlihat, namun menyimpan rasa dan cerita. Terinspirasi dari perjalanan pemilik di dunia kopi mulai Jogja hingga Jakarta, HIGEM hadir sebagai UMKM mahasiswa yang mengutamakan kejujuran rasa, harga terjangkau, dan hubungan yang hangat. Dengan sentuhan retro vintage, HIGEM bukan sekadar tempat membeli kopi, melainkan ruang singgah bagi siapa pun yang menemukannya.
+          </p>
+
+          <div class="section sm"></div>
+
+          <div class="grid two">
+            <div class="card pad" style="box-shadow:none">
+              <b>Target utama</b>
+              <p class="p" style="margin-top:6px">Mahasiswa 17–28 tahun yang beli di sela jam kuliah.</p>
+            </div>
+            <div class="card pad" style="box-shadow:none">
+              <b>Keunggulan</b>
+              <p class="p" style="margin-top:6px">rasa stabil, harga rendah dan proses cepat.</p>
+            </div>
+          </div>
+
+          <div class="btns">
+            <a class="btn primary" href="product.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 14H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg> Lihat Menu</a>
+            <a class="btn" href="contact.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-4.4 7-11a7 7 0 1 0-14 0c0 6.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Lokasi</a>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div style="display:flex; gap:14px; align-items:center">
+            <img src="assets/img/logo-higem.png" alt="Logo HIGEM" style="width:110px; border-radius:18px; border:1px solid var(--line)">
+            <div>
+              <b style="font-size:1.15rem">Karakter Brand</b>
+              <p class="p" style="margin-top:6px">Sederhana - Ramah - Retro Vintage - Nyaman</p>
+            </div>
+          </div>
+
+          <div class="section sm"></div>
+
+          <div class="card pad" style="box-shadow:none">
+            <b>Penjelasan</b>
+            <p class="p" style="margin-top:6px">
+              “HIGEM adalah coffee stand di FT UNIMA yang posisinya agak tersembunyi, jadi kami kuatkan branding retro yang sesuai dengan keinginan owner dan juga agar mudah dikenali.
+              Targetnya sudah pasti Mahasiswa, Staff dan  Dosen maka menunya dibuat cepat dan murah, dengan range Rp 10.000 - Rp 12.000.”
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="grid two">
+      <div>
+        <b style="letter-spacing:.03em">HIGEM — Hidden Gem Coffee</b><br>
+        <small>Thio Ganteng</small>
+      </div>
+      <div style="text-align:right">
+        <small>© <span id="y"></span> HIGEM</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

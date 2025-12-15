@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+<title>HIGEM — Kontak</title>
+<meta name="description" content="Kontak IG saja dan peta lokasi.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="HIGEM - Beranda">
+        <img src="assets/img/logo-higem.png" alt="Logo HIGEM">
+        <div>
+          <b>HIGEM</b>
+          <small>@higemcoffee</small>
+        </div>
+      </a>
+
+      <nav class="navlinks" data-navlinks aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+
+      <button class="burger" data-burger aria-label="Buka menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="h1">Kontak</h1>
+
+      <div class="grid two" style="margin-top:16px">
+        <div class="card pad">
+          <h2 class="h2">Instagram</h2>
+          <p class="p">Kontak hanya lewat IG.</p>
+          <div class="btns">
+            <a class="btn primary" href="https://instagram.com/higemcoffee" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg> @higemcoffee</a>
+          </div>
+
+          <div class="section sm"></div>
+        </div>
+
+        <div class="card pad">
+          <h2 class="h2">Map lokasi</h2>
+          <div class="map" style="margin-top:12px">
+            <iframe
+              src="https://www.google.com/maps?q=7V8P%2B8V6%20PTIK%20FATEK%20UNIMA&z=17&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Peta lokasi HIGEM">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="grid two">
+      <div>
+        <b style="letter-spacing:.03em">HIGEM - Hidden Gem Coffee</b><br>
+        <small>Thio Ganteng</small>
+      </div>
+      <div style="text-align:right">
+        <small>© <span id="y"></span> HIGEM</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="id">
+<head>
+<title>HIGEM — Product</title>
+<meta name="description" content="Matcha, Kopi Susu, Susu Regal (topping), Espresso — cup berlogo HIGEM.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="HIGEM - Beranda">
+        <img src="assets/img/logo-higem.png" alt="Logo HIGEM">
+        <div>
+          <b>HIGEM</b>
+          <small>@higemcoffee</small>
+        </div>
+      </a>
+
+      <nav class="navlinks" data-navlinks aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+
+      <button class="burger" data-burger aria-label="Buka menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="h1">Product</h1>
+      <p class="p lead">4 menu utama untuk presentasi: Matcha, Kopi Susu, Susu Regal (topping), dan Espresso.</p>
+
+      <div class="grid two" style="margin-top:16px">
+        <div class="card">
+          <div class="thumb"><img src="assets/img/product-matcha.jpg" alt="Matcha Latte dalam cup dengan logo HIGEM"></div>
+          <div class="card-body">
+            <h3>Matcha Latte</h3>
+            <p class="p">Non-coffee creamy & ringan.</p>
+            <div class="meta"><span>Harga</span><b>Rp 12.000</b></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumb"><img src="assets/img/product-kopsus.jpg" alt="Kopi Susu dalam cup dengan logo HIGEM"></div>
+          <div class="card-body">
+            <h3>Kopi Susu</h3>
+            <p class="p">Kopi susu simpel, rasa stabil.</p>
+            <div class="meta"><span>Harga</span><b>Rp 11.000</b></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumb"><img src="assets/img/product-regal.jpg" alt="Susu Regal dalam cup dengan logo HIGEM"></div>
+          <div class="card-body">
+            <h3>Susu Regal (Topping)</h3>
+            <p class="p">Susu + topping regal (manis gurih).</p>
+            <div class="meta"><span>Harga</span><b>Rp 12.000</b></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumb"><img src="assets/img/product-espresso.jpg" alt="Espresso dalam cup dengan logo HIGEM"></div>
+          <div class="card-body">
+            <h3>Espresso</h3>
+            <p class="p">Shot kopi kuat, simple & cepat.</p>
+            <div class="meta"><span>Harga</span><b>Rp 10.000</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="grid two">
+      <div>
+        <b style="letter-spacing:.03em">HIGEM — Hidden Gem Coffee</b><br>
+        <small>Thio Ganteng</small>
+      </div>
+      <div style="text-align:right">
+        <small>© <span id="y"></span> HIGEM</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

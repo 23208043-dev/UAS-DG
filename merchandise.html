@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+<title>HIGEM — Merchandise</title>
+<meta name="description" content="Sticker, Kaos, dan Celemek.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="HIGEM - Beranda">
+        <img src="assets/img/logo-higem.png" alt="Logo HIGEM">
+        <div>
+          <b>HIGEM</b>
+          <small>@higemcoffee</small>
+        </div>
+      </a>
+
+      <nav class="navlinks" data-navlinks aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+
+      <button class="burger" data-burger aria-label="Buka menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="h1">Merchandise</h1>
+      <p class="p lead">Merch sederhana: sticker, kaos, dan celemek.</p>
+
+      <div class="grid three" style="margin-top:16px">
+        <div class="card">
+          <div class="thumb"><img src="assets/img/merch-sticker.jpg" alt="Sticker logo HIGEM"></div>
+          <div class="card-body">
+            <h3>Sticker Logo</h3>
+            <p class="p">Untuk laptop / botol minum.</p>
+            <div class="meta"><span>Harga</span><b>Rp 5.000</b></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumb"><img src="assets/img/merch-kaos.jpg" alt="Kaos HIGEM"></div>
+          <div class="card-body">
+            <h3>Kaos HIGEM</h3>
+            <p class="p">Kaos sederhana dengan logo.</p>
+            <div class="meta"><span>Harga</span><b>Rp 95.000</b></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumb"><img src="assets/img/merch-celemek.jpg" alt="Celemek barista HIGEM"></div>
+          <div class="card-body">
+            <h3>Celemek Barista</h3>
+            <p class="p">Apron untuk pelayanan/booth.</p>
+            <div class="meta"><span>Harga</span><b>Rp 75.000</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="grid two">
+      <div>
+        <b style="letter-spacing:.03em">HIGEM — Hidden Gem Coffee</b><br>
+        <small>Thio Ganteng</small>
+      </div>
+      <div style="text-align:right">
+        <small>© <span id="y"></span> HIGEM</small>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
